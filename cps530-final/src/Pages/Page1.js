@@ -15,7 +15,7 @@ class Page1 extends Component {
     }
     
     componentDidMount() {
-        fetch('https://cps530-final-fasiehkhan.herokuapp.com/pageone')
+        fetch('https://cps530-exam.herokuapp.com/pageone')
             .then(res => res.json())
             .then(json => {
                 this.setState({
