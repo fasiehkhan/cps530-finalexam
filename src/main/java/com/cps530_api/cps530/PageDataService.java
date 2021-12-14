@@ -79,7 +79,7 @@ public class PageDataService {
                 test = "error";
         }
 
-        return "In " + 2022 + ", Easter Sunday will be on " + test + "" + date  + ". There are " + "";//displays year,date and month of good friday Sunday
+        return "In " + 2022 + ", Easter Sunday will be on " + test + "" + date + ".";//displays year,date and month of good friday Sunday
     }
 
 
